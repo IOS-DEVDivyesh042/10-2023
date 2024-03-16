@@ -1,6 +1,0 @@
-framework module Pods_PowerElite_PowerEliteUITests {
-  umbrella header "Pods-PowerElite-PowerEliteUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
