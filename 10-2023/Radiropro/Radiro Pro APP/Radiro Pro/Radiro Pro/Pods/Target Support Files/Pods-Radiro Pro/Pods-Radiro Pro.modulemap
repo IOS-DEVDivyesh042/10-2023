@@ -1,0 +1,6 @@
+framework module Pods_Radiro_Pro {
+  umbrella header "Pods-Radiro Pro-umbrella.h"
+
+  export *
+  module * { export * }
+}

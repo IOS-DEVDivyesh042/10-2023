@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A27E783B6ECB8886F886C4C /* Pods_Radiro_Pro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6679D5F4445D97FCDD70927 /* Pods_Radiro_Pro.framework */; };
+		615F797B2AE971F700BBC8FA /* Radiationdetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F797A2AE971F700BBC8FA /* Radiationdetail.swift */; };
+		615F797D2AE9720500BBC8FA /* Radiatipnabsodetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F797C2AE9720500BBC8FA /* Radiatipnabsodetail.swift */; };
+		615F797F2AE9721200BBC8FA /* Radoiationexpodetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F797E2AE9721200BBC8FA /* Radoiationexpodetail.swift */; };
+		615F79812AE9722300BBC8FA /* Radiationactdetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F79802AE9722300BBC8FA /* Radiationactdetail.swift */; };
+		616AB7C32AE6DF1A0023E4A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AB7C22AE6DF1A0023E4A6 /* AppDelegate.swift */; };
+		616AB7C52AE6DF1A0023E4A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AB7C42AE6DF1A0023E4A6 /* SceneDelegate.swift */; };
+		616AB7C72AE6DF1A0023E4A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AB7C62AE6DF1A0023E4A6 /* ViewController.swift */; };
+		616AB7CA2AE6DF1A0023E4A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616AB7C82AE6DF1A0023E4A6 /* Main.storyboard */; };
+		616AB7CC2AE6DF1C0023E4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616AB7CB2AE6DF1C0023E4A6 /* Assets.xcassets */; };
+		616AB7CF2AE6DF1C0023E4A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616AB7CD2AE6DF1C0023E4A6 /* LaunchScreen.storyboard */; };
+		616AB7DD2AE6DF8A0023E4A6 /* SidemenuVCc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AB7D72AE6DF8A0023E4A6 /* SidemenuVCc.swift */; };
+		616AB7DE2AE6DF8A0023E4A6 /* SidemenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AB7D82AE6DF8A0023E4A6 /* SidemenuVC.swift */; };
+		616AB7DF2AE6DF8A0023E4A6 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AB7D92AE6DF8A0023E4A6 /* FeedbackVC.swift */; };
+		616AB7E02AE6DF8A0023E4A6 /* sidemenuTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AB7DA2AE6DF8A0023E4A6 /* sidemenuTblCell.swift */; };
+		616AB7E12AE6DF8A0023E4A6 /* Abtsvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AB7DB2AE6DF8A0023E4A6 /* Abtsvc.swift */; };
+		616AB7E22AE6DF8A0023E4A6 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AB7DC2AE6DF8A0023E4A6 /* Helper.swift */; };
+		616AB7E42AE6E0370023E4A6 /* Radiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AB7E32AE6E0370023E4A6 /* Radiation.swift */; };
+		616AB7E62AE6E0740023E4A6 /* RadiationAct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AB7E52AE6E0740023E4A6 /* RadiationAct.swift */; };
+		616AB7E82AE6E09B0023E4A6 /* RadiationExpo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AB7E72AE6E09B0023E4A6 /* RadiationExpo.swift */; };
+		616AB7EA2AE6E0FB0023E4A6 /* RadiationAbso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AB7E92AE6E0FB0023E4A6 /* RadiationAbso.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		336F445BAB428B2FDFECAD65 /* Pods-Radiro Pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radiro Pro.debug.xcconfig"; path = "Target Support Files/Pods-Radiro Pro/Pods-Radiro Pro.debug.xcconfig"; sourceTree = "<group>"; };
+		615F797A2AE971F700BBC8FA /* Radiationdetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radiationdetail.swift; sourceTree = "<group>"; };
+		615F797C2AE9720500BBC8FA /* Radiatipnabsodetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radiatipnabsodetail.swift; sourceTree = "<group>"; };
+		615F797E2AE9721200BBC8FA /* Radoiationexpodetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radoiationexpodetail.swift; sourceTree = "<group>"; };
+		615F79802AE9722300BBC8FA /* Radiationactdetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radiationactdetail.swift; sourceTree = "<group>"; };
+		616AB7BF2AE6DF1A0023E4A6 /* Radiro Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radiro Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616AB7C22AE6DF1A0023E4A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		616AB7C42AE6DF1A0023E4A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		616AB7C62AE6DF1A0023E4A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		616AB7C92AE6DF1A0023E4A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		616AB7CB2AE6DF1C0023E4A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		616AB7CE2AE6DF1C0023E4A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		616AB7D02AE6DF1C0023E4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616AB7D72AE6DF8A0023E4A6 /* SidemenuVCc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVCc.swift; sourceTree = "<group>"; };
+		616AB7D82AE6DF8A0023E4A6 /* SidemenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVC.swift; sourceTree = "<group>"; };
+		616AB7D92AE6DF8A0023E4A6 /* FeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		616AB7DA2AE6DF8A0023E4A6 /* sidemenuTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sidemenuTblCell.swift; sourceTree = "<group>"; };
+		616AB7DB2AE6DF8A0023E4A6 /* Abtsvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abtsvc.swift; sourceTree = "<group>"; };
+		616AB7DC2AE6DF8A0023E4A6 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		616AB7E32AE6E0370023E4A6 /* Radiation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radiation.swift; sourceTree = "<group>"; };
+		616AB7E52AE6E0740023E4A6 /* RadiationAct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiationAct.swift; sourceTree = "<group>"; };
+		616AB7E72AE6E09B0023E4A6 /* RadiationExpo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiationExpo.swift; sourceTree = "<group>"; };
+		616AB7E92AE6E0FB0023E4A6 /* RadiationAbso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiationAbso.swift; sourceTree = "<group>"; };
+		ADAEBADFFD0415BBBCD48A95 /* Pods-Radiro Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radiro Pro.release.xcconfig"; path = "Target Support Files/Pods-Radiro Pro/Pods-Radiro Pro.release.xcconfig"; sourceTree = "<group>"; };
+		F6679D5F4445D97FCDD70927 /* Pods_Radiro_Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radiro_Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		616AB7BC2AE6DF1A0023E4A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A27E783B6ECB8886F886C4C /* Pods_Radiro_Pro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		615F79822AE9722C00BBC8FA /* Detailvc */ = {
+			isa = PBXGroup;
+			children = (
+				615F797C2AE9720500BBC8FA /* Radiatipnabsodetail.swift */,
+				615F797E2AE9721200BBC8FA /* Radoiationexpodetail.swift */,
+				615F79802AE9722300BBC8FA /* Radiationactdetail.swift */,
+				615F797A2AE971F700BBC8FA /* Radiationdetail.swift */,
+			);
+			path = Detailvc;
+			sourceTree = "<group>";
+		};
+		615F79832AE9729600BBC8FA /* RadiationController */ = {
+			isa = PBXGroup;
+			children = (
+				616AB7E32AE6E0370023E4A6 /* Radiation.swift */,
+				616AB7E52AE6E0740023E4A6 /* RadiationAct.swift */,
+				616AB7E72AE6E09B0023E4A6 /* RadiationExpo.swift */,
+				616AB7E92AE6E0FB0023E4A6 /* RadiationAbso.swift */,
+			);
+			path = RadiationController;
+			sourceTree = "<group>";
+		};
+		616AB7B62AE6DF1A0023E4A6 = {
+			isa = PBXGroup;
+			children = (
+				616AB7C12AE6DF1A0023E4A6 /* Radiro Pro */,
+				616AB7C02AE6DF1A0023E4A6 /* Products */,
+				B3DAC5CA26873D3D2B80F326 /* Pods */,
+				96DDC23B1D787EE25361A174 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		616AB7C02AE6DF1A0023E4A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				616AB7BF2AE6DF1A0023E4A6 /* Radiro Pro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		616AB7C12AE6DF1A0023E4A6 /* Radiro Pro */ = {
+			isa = PBXGroup;
+			children = (
+				616AB7C22AE6DF1A0023E4A6 /* AppDelegate.swift */,
+				616AB7C42AE6DF1A0023E4A6 /* SceneDelegate.swift */,
+				616AB7C62AE6DF1A0023E4A6 /* ViewController.swift */,
+				615F79832AE9729600BBC8FA /* RadiationController */,
+				615F79822AE9722C00BBC8FA /* Detailvc */,
+				616AB7D62AE6DF8A0023E4A6 /* Sidemenufile */,
+				616AB7C82AE6DF1A0023E4A6 /* Main.storyboard */,
+				616AB7CB2AE6DF1C0023E4A6 /* Assets.xcassets */,
+				616AB7CD2AE6DF1C0023E4A6 /* LaunchScreen.storyboard */,
+				616AB7D02AE6DF1C0023E4A6 /* Info.plist */,
+			);
+			path = "Radiro Pro";
+			sourceTree = "<group>";
+		};
+		616AB7D62AE6DF8A0023E4A6 /* Sidemenufile */ = {
+			isa = PBXGroup;
+			children = (
+				616AB7D72AE6DF8A0023E4A6 /* SidemenuVCc.swift */,
+				616AB7D82AE6DF8A0023E4A6 /* SidemenuVC.swift */,
+				616AB7D92AE6DF8A0023E4A6 /* FeedbackVC.swift */,
+				616AB7DA2AE6DF8A0023E4A6 /* sidemenuTblCell.swift */,
+				616AB7DB2AE6DF8A0023E4A6 /* Abtsvc.swift */,
+				616AB7DC2AE6DF8A0023E4A6 /* Helper.swift */,
+			);
+			path = Sidemenufile;
+			sourceTree = "<group>";
+		};
+		96DDC23B1D787EE25361A174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6679D5F4445D97FCDD70927 /* Pods_Radiro_Pro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3DAC5CA26873D3D2B80F326 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				336F445BAB428B2FDFECAD65 /* Pods-Radiro Pro.debug.xcconfig */,
+				ADAEBADFFD0415BBBCD48A95 /* Pods-Radiro Pro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		616AB7BE2AE6DF1A0023E4A6 /* Radiro Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616AB7D32AE6DF1C0023E4A6 /* Build configuration list for PBXNativeTarget "Radiro Pro" */;
+			buildPhases = (
+				A9CA0F23E60C60FEFCCBFA1C /* [CP] Check Pods Manifest.lock */,
+				616AB7BB2AE6DF1A0023E4A6 /* Sources */,
+				616AB7BC2AE6DF1A0023E4A6 /* Frameworks */,
+				616AB7BD2AE6DF1A0023E4A6 /* Resources */,
+				34DC480AB9B5A073817D424D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Radiro Pro";
+			productName = "Radiro Pro";
+			productReference = 616AB7BF2AE6DF1A0023E4A6 /* Radiro Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		616AB7B72AE6DF1A0023E4A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					616AB7BE2AE6DF1A0023E4A6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 616AB7BA2AE6DF1A0023E4A6 /* Build configuration list for PBXProject "Radiro Pro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 616AB7B62AE6DF1A0023E4A6;
+			productRefGroup = 616AB7C02AE6DF1A0023E4A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				616AB7BE2AE6DF1A0023E4A6 /* Radiro Pro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		616AB7BD2AE6DF1A0023E4A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616AB7CF2AE6DF1C0023E4A6 /* LaunchScreen.storyboard in Resources */,
+				616AB7CC2AE6DF1C0023E4A6 /* Assets.xcassets in Resources */,
+				616AB7CA2AE6DF1A0023E4A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34DC480AB9B5A073817D424D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Radiro Pro/Pods-Radiro Pro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Radiro Pro/Pods-Radiro Pro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Radiro Pro/Pods-Radiro Pro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9CA0F23E60C60FEFCCBFA1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Radiro Pro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		616AB7BB2AE6DF1A0023E4A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616AB7C72AE6DF1A0023E4A6 /* ViewController.swift in Sources */,
+				616AB7C32AE6DF1A0023E4A6 /* AppDelegate.swift in Sources */,
+				616AB7E12AE6DF8A0023E4A6 /* Abtsvc.swift in Sources */,
+				616AB7E62AE6E0740023E4A6 /* RadiationAct.swift in Sources */,
+				616AB7DE2AE6DF8A0023E4A6 /* SidemenuVC.swift in Sources */,
+				616AB7DD2AE6DF8A0023E4A6 /* SidemenuVCc.swift in Sources */,
+				616AB7E42AE6E0370023E4A6 /* Radiation.swift in Sources */,
+				616AB7E22AE6DF8A0023E4A6 /* Helper.swift in Sources */,
+				615F797B2AE971F700BBC8FA /* Radiationdetail.swift in Sources */,
+				616AB7C52AE6DF1A0023E4A6 /* SceneDelegate.swift in Sources */,
+				616AB7E82AE6E09B0023E4A6 /* RadiationExpo.swift in Sources */,
+				616AB7DF2AE6DF8A0023E4A6 /* FeedbackVC.swift in Sources */,
+				616AB7EA2AE6E0FB0023E4A6 /* RadiationAbso.swift in Sources */,
+				615F79812AE9722300BBC8FA /* Radiationactdetail.swift in Sources */,
+				615F797D2AE9720500BBC8FA /* Radiatipnabsodetail.swift in Sources */,
+				615F797F2AE9721200BBC8FA /* Radoiationexpodetail.swift in Sources */,
+				616AB7E02AE6DF8A0023E4A6 /* sidemenuTblCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		616AB7C82AE6DF1A0023E4A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616AB7C92AE6DF1A0023E4A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		616AB7CD2AE6DF1C0023E4A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616AB7CE2AE6DF1C0023E4A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		616AB7D12AE6DF1C0023E4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		616AB7D22AE6DF1C0023E4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		616AB7D42AE6DF1C0023E4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 336F445BAB428B2FDFECAD65 /* Pods-Radiro Pro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Radiro Pro/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Radiro Pro";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firstproject.Radiro-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		616AB7D52AE6DF1C0023E4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADAEBADFFD0415BBBCD48A95 /* Pods-Radiro Pro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Radiro Pro/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Radiro Pro";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firstproject.Radiro-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		616AB7BA2AE6DF1A0023E4A6 /* Build configuration list for PBXProject "Radiro Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616AB7D12AE6DF1C0023E4A6 /* Debug */,
+				616AB7D22AE6DF1C0023E4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616AB7D32AE6DF1C0023E4A6 /* Build configuration list for PBXNativeTarget "Radiro Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616AB7D42AE6DF1C0023E4A6 /* Debug */,
+				616AB7D52AE6DF1C0023E4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 616AB7B72AE6DF1A0023E4A6 /* Project object */;
+}

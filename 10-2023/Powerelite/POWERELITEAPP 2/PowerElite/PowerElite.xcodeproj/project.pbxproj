@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0247183E13F091A98016E73B /* Pods_PowerElite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657963A8CEB83F9F09E4BA06 /* Pods_PowerElite.framework */; };
+		6108890F2ADABAA7005994A6 /* SidemenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108890A2ADABAA7005994A6 /* SidemenuVC.swift */; };
+		610889102ADABAA7005994A6 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108890B2ADABAA7005994A6 /* FeedbackVC.swift */; };
+		610889112ADABAA7005994A6 /* sidemenuTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108890C2ADABAA7005994A6 /* sidemenuTblCell.swift */; };
+		610889122ADABAA7005994A6 /* Abtsvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108890D2ADABAA7005994A6 /* Abtsvc.swift */; };
+		610889132ADABAA7005994A6 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108890E2ADABAA7005994A6 /* Helper.swift */; };
+		615BEF582ADA54BD00A971A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615BEF572ADA54BD00A971A5 /* AppDelegate.swift */; };
+		615BEF5A2ADA54BD00A971A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615BEF592ADA54BD00A971A5 /* SceneDelegate.swift */; };
+		615BEF5C2ADA54BD00A971A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615BEF5B2ADA54BD00A971A5 /* ViewController.swift */; };
+		615BEF5F2ADA54BD00A971A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615BEF5D2ADA54BD00A971A5 /* Main.storyboard */; };
+		615BEF612ADA54BE00A971A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615BEF602ADA54BE00A971A5 /* Assets.xcassets */; };
+		615BEF642ADA54BE00A971A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615BEF622ADA54BE00A971A5 /* LaunchScreen.storyboard */; };
+		615BEF6F2ADA54BE00A971A5 /* VoltaVortexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615BEF6E2ADA54BE00A971A5 /* VoltaVortexTests.swift */; };
+		615BEF792ADA54BE00A971A5 /* VoltaVortexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615BEF782ADA54BE00A971A5 /* VoltaVortexUITests.swift */; };
+		615BEF7B2ADA54BE00A971A5 /* VoltaVortexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615BEF7A2ADA54BE00A971A5 /* VoltaVortexUITestsLaunchTests.swift */; };
+		6196B4722ADA5D6800E098C5 /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196B4712ADA5D6800E098C5 /* VC1.swift */; };
+		6196B4742ADA5D8200E098C5 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196B4732ADA5D8200E098C5 /* VC2.swift */; };
+		6196B4762ADA5DBE00E098C5 /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196B4752ADA5DBE00E098C5 /* VC3.swift */; };
+		6196B4782ADA5DDA00E098C5 /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196B4772ADA5DDA00E098C5 /* VC4.swift */; };
+		6196B47A2ADA5DE800E098C5 /* VC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196B4792ADA5DE800E098C5 /* VC5.swift */; };
+		A9D2B10FB2134C0B1FC7AD4D /* Pods_PowerElite_PowerEliteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D62403F985BF0754F9F6DEC /* Pods_PowerElite_PowerEliteUITests.framework */; };
+		D8B5A64DEA8DC2824532807C /* Pods_PowerEliteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D088CC22F511BD05F51E747 /* Pods_PowerEliteTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		615BEF6B2ADA54BE00A971A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615BEF4C2ADA54BD00A971A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615BEF532ADA54BD00A971A5;
+			remoteInfo = VoltaVortex;
+		};
+		615BEF752ADA54BE00A971A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615BEF4C2ADA54BD00A971A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615BEF532ADA54BD00A971A5;
+			remoteInfo = VoltaVortex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B20A226C4BD3A49432561CB /* Pods-PowerElite-PowerEliteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerElite-PowerEliteUITests.release.xcconfig"; path = "Target Support Files/Pods-PowerElite-PowerEliteUITests/Pods-PowerElite-PowerEliteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		361775F4A2A815DC80FE4604 /* Pods-PowerElite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerElite.debug.xcconfig"; path = "Target Support Files/Pods-PowerElite/Pods-PowerElite.debug.xcconfig"; sourceTree = "<group>"; };
+		41FBDA62D7F58CB3ADF241EC /* Pods-PowerElite-PowerEliteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerElite-PowerEliteUITests.debug.xcconfig"; path = "Target Support Files/Pods-PowerElite-PowerEliteUITests/Pods-PowerElite-PowerEliteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D62403F985BF0754F9F6DEC /* Pods_PowerElite_PowerEliteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerElite_PowerEliteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6108890A2ADABAA7005994A6 /* SidemenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVC.swift; sourceTree = "<group>"; };
+		6108890B2ADABAA7005994A6 /* FeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		6108890C2ADABAA7005994A6 /* sidemenuTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sidemenuTblCell.swift; sourceTree = "<group>"; };
+		6108890D2ADABAA7005994A6 /* Abtsvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abtsvc.swift; sourceTree = "<group>"; };
+		6108890E2ADABAA7005994A6 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		615BEF542ADA54BD00A971A5 /* PowerElite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerElite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		615BEF572ADA54BD00A971A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		615BEF592ADA54BD00A971A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		615BEF5B2ADA54BD00A971A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		615BEF5E2ADA54BD00A971A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		615BEF602ADA54BE00A971A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		615BEF632ADA54BE00A971A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		615BEF652ADA54BE00A971A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615BEF6A2ADA54BE00A971A5 /* PowerEliteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerEliteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		615BEF6E2ADA54BE00A971A5 /* VoltaVortexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltaVortexTests.swift; sourceTree = "<group>"; };
+		615BEF742ADA54BE00A971A5 /* PowerEliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerEliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		615BEF782ADA54BE00A971A5 /* VoltaVortexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltaVortexUITests.swift; sourceTree = "<group>"; };
+		615BEF7A2ADA54BE00A971A5 /* VoltaVortexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltaVortexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6196B4712ADA5D6800E098C5 /* VC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		6196B4732ADA5D8200E098C5 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		6196B4752ADA5DBE00E098C5 /* VC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		6196B4772ADA5DDA00E098C5 /* VC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
+		6196B4792ADA5DE800E098C5 /* VC5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC5.swift; sourceTree = "<group>"; };
+		657963A8CEB83F9F09E4BA06 /* Pods_PowerElite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerElite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D088CC22F511BD05F51E747 /* Pods_PowerEliteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerEliteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4390EFCE2DD397FB9A7740 /* Pods-PowerEliteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerEliteTests.debug.xcconfig"; path = "Target Support Files/Pods-PowerEliteTests/Pods-PowerEliteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E74B17636B3C13A7C384669F /* Pods-PowerElite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerElite.release.xcconfig"; path = "Target Support Files/Pods-PowerElite/Pods-PowerElite.release.xcconfig"; sourceTree = "<group>"; };
+		F658CB14A945C4E683021CA7 /* Pods-PowerEliteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerEliteTests.release.xcconfig"; path = "Target Support Files/Pods-PowerEliteTests/Pods-PowerEliteTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		615BEF512ADA54BD00A971A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0247183E13F091A98016E73B /* Pods_PowerElite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615BEF672ADA54BE00A971A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B5A64DEA8DC2824532807C /* Pods_PowerEliteTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615BEF712ADA54BE00A971A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D2B10FB2134C0B1FC7AD4D /* Pods_PowerElite_PowerEliteUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		610889092ADABAA7005994A6 /* Sidemenuvc */ = {
+			isa = PBXGroup;
+			children = (
+				6108890A2ADABAA7005994A6 /* SidemenuVC.swift */,
+				6108890B2ADABAA7005994A6 /* FeedbackVC.swift */,
+				6108890C2ADABAA7005994A6 /* sidemenuTblCell.swift */,
+				6108890D2ADABAA7005994A6 /* Abtsvc.swift */,
+				6108890E2ADABAA7005994A6 /* Helper.swift */,
+			);
+			name = Sidemenuvc;
+			path = VoltaVortex/Sidemenuvc;
+			sourceTree = SOURCE_ROOT;
+		};
+		615BEF4B2ADA54BD00A971A5 = {
+			isa = PBXGroup;
+			children = (
+				615BEF562ADA54BD00A971A5 /* VoltaVortex */,
+				615BEF6D2ADA54BE00A971A5 /* VoltaVortexTests */,
+				615BEF772ADA54BE00A971A5 /* VoltaVortexUITests */,
+				615BEF552ADA54BD00A971A5 /* Products */,
+				E5E7EA437D0CBFD97C8A3BBF /* Pods */,
+				D2D5C54722F23792F515CD88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		615BEF552ADA54BD00A971A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				615BEF542ADA54BD00A971A5 /* PowerElite.app */,
+				615BEF6A2ADA54BE00A971A5 /* PowerEliteTests.xctest */,
+				615BEF742ADA54BE00A971A5 /* PowerEliteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		615BEF562ADA54BD00A971A5 /* VoltaVortex */ = {
+			isa = PBXGroup;
+			children = (
+				610889092ADABAA7005994A6 /* Sidemenuvc */,
+				6196B46E2ADA5D3100E098C5 /* Converter VC */,
+				615BEF572ADA54BD00A971A5 /* AppDelegate.swift */,
+				615BEF592ADA54BD00A971A5 /* SceneDelegate.swift */,
+				615BEF5B2ADA54BD00A971A5 /* ViewController.swift */,
+				615BEF5D2ADA54BD00A971A5 /* Main.storyboard */,
+				615BEF602ADA54BE00A971A5 /* Assets.xcassets */,
+				615BEF622ADA54BE00A971A5 /* LaunchScreen.storyboard */,
+				615BEF652ADA54BE00A971A5 /* Info.plist */,
+			);
+			path = VoltaVortex;
+			sourceTree = "<group>";
+		};
+		615BEF6D2ADA54BE00A971A5 /* VoltaVortexTests */ = {
+			isa = PBXGroup;
+			children = (
+				615BEF6E2ADA54BE00A971A5 /* VoltaVortexTests.swift */,
+			);
+			path = VoltaVortexTests;
+			sourceTree = "<group>";
+		};
+		615BEF772ADA54BE00A971A5 /* VoltaVortexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				615BEF782ADA54BE00A971A5 /* VoltaVortexUITests.swift */,
+				615BEF7A2ADA54BE00A971A5 /* VoltaVortexUITestsLaunchTests.swift */,
+			);
+			path = VoltaVortexUITests;
+			sourceTree = "<group>";
+		};
+		6196B46E2ADA5D3100E098C5 /* Converter VC */ = {
+			isa = PBXGroup;
+			children = (
+				6196B4712ADA5D6800E098C5 /* VC1.swift */,
+				6196B4732ADA5D8200E098C5 /* VC2.swift */,
+				6196B4752ADA5DBE00E098C5 /* VC3.swift */,
+				6196B4772ADA5DDA00E098C5 /* VC4.swift */,
+				6196B4792ADA5DE800E098C5 /* VC5.swift */,
+			);
+			path = "Converter VC";
+			sourceTree = "<group>";
+		};
+		D2D5C54722F23792F515CD88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				657963A8CEB83F9F09E4BA06 /* Pods_PowerElite.framework */,
+				4D62403F985BF0754F9F6DEC /* Pods_PowerElite_PowerEliteUITests.framework */,
+				6D088CC22F511BD05F51E747 /* Pods_PowerEliteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5E7EA437D0CBFD97C8A3BBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				361775F4A2A815DC80FE4604 /* Pods-PowerElite.debug.xcconfig */,
+				E74B17636B3C13A7C384669F /* Pods-PowerElite.release.xcconfig */,
+				41FBDA62D7F58CB3ADF241EC /* Pods-PowerElite-PowerEliteUITests.debug.xcconfig */,
+				2B20A226C4BD3A49432561CB /* Pods-PowerElite-PowerEliteUITests.release.xcconfig */,
+				BF4390EFCE2DD397FB9A7740 /* Pods-PowerEliteTests.debug.xcconfig */,
+				F658CB14A945C4E683021CA7 /* Pods-PowerEliteTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		615BEF532ADA54BD00A971A5 /* PowerElite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615BEF7E2ADA54BE00A971A5 /* Build configuration list for PBXNativeTarget "PowerElite" */;
+			buildPhases = (
+				B9A1F5399AFD3C346892561F /* [CP] Check Pods Manifest.lock */,
+				615BEF502ADA54BD00A971A5 /* Sources */,
+				615BEF512ADA54BD00A971A5 /* Frameworks */,
+				615BEF522ADA54BD00A971A5 /* Resources */,
+				4D767EE9F6F5415CC05FF09C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerElite;
+			productName = VoltaVortex;
+			productReference = 615BEF542ADA54BD00A971A5 /* PowerElite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		615BEF692ADA54BE00A971A5 /* PowerEliteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615BEF812ADA54BE00A971A5 /* Build configuration list for PBXNativeTarget "PowerEliteTests" */;
+			buildPhases = (
+				8AEB18D719D4F461B99D5487 /* [CP] Check Pods Manifest.lock */,
+				615BEF662ADA54BE00A971A5 /* Sources */,
+				615BEF672ADA54BE00A971A5 /* Frameworks */,
+				615BEF682ADA54BE00A971A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				615BEF6C2ADA54BE00A971A5 /* PBXTargetDependency */,
+			);
+			name = PowerEliteTests;
+			productName = VoltaVortexTests;
+			productReference = 615BEF6A2ADA54BE00A971A5 /* PowerEliteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		615BEF732ADA54BE00A971A5 /* PowerEliteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615BEF842ADA54BE00A971A5 /* Build configuration list for PBXNativeTarget "PowerEliteUITests" */;
+			buildPhases = (
+				5D2B6EC1D4BED58414268AA7 /* [CP] Check Pods Manifest.lock */,
+				615BEF702ADA54BE00A971A5 /* Sources */,
+				615BEF712ADA54BE00A971A5 /* Frameworks */,
+				615BEF722ADA54BE00A971A5 /* Resources */,
+				CFC0A8BD17E04843EA8DE153 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				615BEF762ADA54BE00A971A5 /* PBXTargetDependency */,
+			);
+			name = PowerEliteUITests;
+			productName = VoltaVortexUITests;
+			productReference = 615BEF742ADA54BE00A971A5 /* PowerEliteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		615BEF4C2ADA54BD00A971A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					615BEF532ADA54BD00A971A5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					615BEF692ADA54BE00A971A5 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 615BEF532ADA54BD00A971A5;
+					};
+					615BEF732ADA54BE00A971A5 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 615BEF532ADA54BD00A971A5;
+					};
+				};
+			};
+			buildConfigurationList = 615BEF4F2ADA54BD00A971A5 /* Build configuration list for PBXProject "PowerElite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 615BEF4B2ADA54BD00A971A5;
+			productRefGroup = 615BEF552ADA54BD00A971A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				615BEF532ADA54BD00A971A5 /* PowerElite */,
+				615BEF692ADA54BE00A971A5 /* PowerEliteTests */,
+				615BEF732ADA54BE00A971A5 /* PowerEliteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		615BEF522ADA54BD00A971A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615BEF642ADA54BE00A971A5 /* LaunchScreen.storyboard in Resources */,
+				615BEF612ADA54BE00A971A5 /* Assets.xcassets in Resources */,
+				615BEF5F2ADA54BD00A971A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615BEF682ADA54BE00A971A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615BEF722ADA54BE00A971A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D767EE9F6F5415CC05FF09C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PowerElite/Pods-PowerElite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PowerElite/Pods-PowerElite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PowerElite/Pods-PowerElite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D2B6EC1D4BED58414268AA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PowerElite-PowerEliteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AEB18D719D4F461B99D5487 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PowerEliteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9A1F5399AFD3C346892561F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PowerElite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFC0A8BD17E04843EA8DE153 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PowerElite-PowerEliteUITests/Pods-PowerElite-PowerEliteUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PowerElite-PowerEliteUITests/Pods-PowerElite-PowerEliteUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PowerElite-PowerEliteUITests/Pods-PowerElite-PowerEliteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		615BEF502ADA54BD00A971A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6196B4762ADA5DBE00E098C5 /* VC3.swift in Sources */,
+				610889102ADABAA7005994A6 /* FeedbackVC.swift in Sources */,
+				610889122ADABAA7005994A6 /* Abtsvc.swift in Sources */,
+				615BEF5C2ADA54BD00A971A5 /* ViewController.swift in Sources */,
+				6196B47A2ADA5DE800E098C5 /* VC5.swift in Sources */,
+				6196B4782ADA5DDA00E098C5 /* VC4.swift in Sources */,
+				615BEF582ADA54BD00A971A5 /* AppDelegate.swift in Sources */,
+				6196B4742ADA5D8200E098C5 /* VC2.swift in Sources */,
+				6196B4722ADA5D6800E098C5 /* VC1.swift in Sources */,
+				6108890F2ADABAA7005994A6 /* SidemenuVC.swift in Sources */,
+				610889132ADABAA7005994A6 /* Helper.swift in Sources */,
+				615BEF5A2ADA54BD00A971A5 /* SceneDelegate.swift in Sources */,
+				610889112ADABAA7005994A6 /* sidemenuTblCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615BEF662ADA54BE00A971A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615BEF6F2ADA54BE00A971A5 /* VoltaVortexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615BEF702ADA54BE00A971A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615BEF792ADA54BE00A971A5 /* VoltaVortexUITests.swift in Sources */,
+				615BEF7B2ADA54BE00A971A5 /* VoltaVortexUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		615BEF6C2ADA54BE00A971A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 615BEF532ADA54BD00A971A5 /* PowerElite */;
+			targetProxy = 615BEF6B2ADA54BE00A971A5 /* PBXContainerItemProxy */;
+		};
+		615BEF762ADA54BE00A971A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 615BEF532ADA54BD00A971A5 /* PowerElite */;
+			targetProxy = 615BEF752ADA54BE00A971A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		615BEF5D2ADA54BD00A971A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615BEF5E2ADA54BD00A971A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		615BEF622ADA54BE00A971A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615BEF632ADA54BE00A971A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		615BEF7C2ADA54BE00A971A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		615BEF7D2ADA54BE00A971A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		615BEF7F2ADA54BE00A971A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361775F4A2A815DC80FE4604 /* Pods-PowerElite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoltaVortex/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PowerElite;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.PowerElite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		615BEF802ADA54BE00A971A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E74B17636B3C13A7C384669F /* Pods-PowerElite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoltaVortex/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PowerElite;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.PowerElite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		615BEF822ADA54BE00A971A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4390EFCE2DD397FB9A7740 /* Pods-PowerEliteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.VoltaVortexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerElite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PowerElite";
+			};
+			name = Debug;
+		};
+		615BEF832ADA54BE00A971A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F658CB14A945C4E683021CA7 /* Pods-PowerEliteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.VoltaVortexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerElite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PowerElite";
+			};
+			name = Release;
+		};
+		615BEF852ADA54BE00A971A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41FBDA62D7F58CB3ADF241EC /* Pods-PowerElite-PowerEliteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.VoltaVortexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoltaVortex;
+			};
+			name = Debug;
+		};
+		615BEF862ADA54BE00A971A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B20A226C4BD3A49432561CB /* Pods-PowerElite-PowerEliteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.VoltaVortexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoltaVortex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		615BEF4F2ADA54BD00A971A5 /* Build configuration list for PBXProject "PowerElite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615BEF7C2ADA54BE00A971A5 /* Debug */,
+				615BEF7D2ADA54BE00A971A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615BEF7E2ADA54BE00A971A5 /* Build configuration list for PBXNativeTarget "PowerElite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615BEF7F2ADA54BE00A971A5 /* Debug */,
+				615BEF802ADA54BE00A971A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615BEF812ADA54BE00A971A5 /* Build configuration list for PBXNativeTarget "PowerEliteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615BEF822ADA54BE00A971A5 /* Debug */,
+				615BEF832ADA54BE00A971A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615BEF842ADA54BE00A971A5 /* Build configuration list for PBXNativeTarget "PowerEliteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615BEF852ADA54BE00A971A5 /* Debug */,
+				615BEF862ADA54BE00A971A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 615BEF4C2ADA54BD00A971A5 /* Project object */;
+}
